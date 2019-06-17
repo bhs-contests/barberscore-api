@@ -4145,6 +4145,11 @@ class Song(TimeStampedModel):
         blank=True,
     )
 
+    denorm_chart = JSONField(
+        default=dict,
+        blank=True,
+    )
+
     asterisks = ArrayField(
         base_field=models.IntegerField(
         ),

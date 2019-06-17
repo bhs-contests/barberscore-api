@@ -209,6 +209,7 @@ class SongSerializer(serializers.ModelSerializer):
             'url',
             'status',
             'legacy_chart',
+            'denorm_chart',
             'num',
             'penalties',
             'appearance',
