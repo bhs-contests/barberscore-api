@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "bc567487d3105fee27fc4039dd2e2b89c8fc9e40a5d14c8e98280af4bcaee9d3"
+            "sha256": "67d1cca002b3df341757f68c19151a7eecf0eee926e5c6b3f51ff49f858ea107"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -48,11 +48,11 @@
         },
         "auth0-python": {
             "hashes": [
-                "sha256:1ac5b7b52d0a526bf748f5e82dac0935e5bfd264d4b8ee94f3942c773b11084e",
-                "sha256:f9a6a6117beb1ad21666ffe6e56d3f1d03fb6de55f48cf5cf5f1c61ecb75d37b"
+                "sha256:10e5690dbe7ed649f0a61b0017c908529fa81b76a3217caed64aeeb5fb269b30",
+                "sha256:cc92656db2c5fe158e5376049d431924c4788aa28668f62b6e28943c406407c7"
             ],
             "index": "pypi",
-            "version": "==3.8.0"
+            "version": "==3.8.1"
         },
         "babel": {
             "hashes": [
@@ -104,10 +104,10 @@
         },
         "certifi": {
             "hashes": [
-                "sha256:59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5",
-                "sha256:b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"
+                "sha256:046832c04d4e752f37383b628bc601a7ea7211496b4638f6514d0e5b9acc4939",
+                "sha256:945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695"
             ],
-            "version": "==2019.3.9"
+            "version": "==2019.6.16"
         },
         "cffi": {
             "hashes": [
@@ -835,10 +835,10 @@
         },
         "certifi": {
             "hashes": [
-                "sha256:59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5",
-                "sha256:b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"
+                "sha256:046832c04d4e752f37383b628bc601a7ea7211496b4638f6514d0e5b9acc4939",
+                "sha256:945e3ba63a0b9f577b1395204e13c3a231f9bc0223888be653286534e5873695"
             ],
-            "version": "==2019.3.9"
+            "version": "==2019.6.16"
         },
         "chardet": {
             "hashes": [
@@ -877,6 +877,14 @@
             ],
             "index": "pypi",
             "version": "==1.11"
+        },
+        "django-json-widget": {
+            "hashes": [
+                "sha256:0d995fbfd3169709fd43c190eb2fb2e7dbd84c41da7ba8c0db33fc399881264e",
+                "sha256:eeefe79863119e1507b1c208dfe27f0ce2fbf7b378c5022b8637b0a362c23202"
+            ],
+            "index": "pypi",
+            "version": "==0.2.0"
         },
         "django-querycount": {
             "hashes": [

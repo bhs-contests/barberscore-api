@@ -257,6 +257,7 @@ INSTALLED_APPS = [
     'fsm_admin',
     'phonenumber_field',
     'reversion',
+    'django_json_widget',
     'api',
     'apps.bhs',
     'apps.keller',

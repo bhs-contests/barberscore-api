@@ -10,6 +10,9 @@ from django.utils import timezone
 from django.contrib import messages
 from django.apps import apps
 from django.conf import settings
+from django.contrib.postgres import fields
+from django_json_widget.widgets import JSONEditorWidget
+
 # Local
 from .filters import AppearanceConventionStatusListFilter
 from .filters import ConventionStatusListFilter
@@ -353,12 +356,16 @@ class ScoreAdmin(admin.ModelAdmin):
 
 @admin.register(Song)
 class SongAdmin(admin.ModelAdmin):
+    formfield_overrides = {
+        fields.JSONField: {'widget': JSONEditorWidget},
+    }
     fields = [
         'id',
         # 'name',
         'stats',
         'appearance',
         'chart',
+        'denorm_chart',
         'legacy_chart',
         'num',
         'penalties',
@@ -386,7 +393,7 @@ class SongAdmin(admin.ModelAdmin):
 
     readonly_fields = (
         'id',
-        'stats',
+        # 'stats',
     )
 
     autocomplete_fields = [

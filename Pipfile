@@ -60,6 +60,7 @@ pytest = "*"
 pytest-django = "*"
 coreapi = "*"
 pyyaml = "*"
+django-json-widget = "*"
 
 [requires]
 python_version = "3.7"
